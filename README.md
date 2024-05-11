@@ -413,3 +413,10 @@ Ejemplo:
 feat(backend): add filter for cars
 fix(web): remove wrong color
 ```
+
+### Escribir buenos nombres de ramas
+
+- Ser consistente al nombrar las ramas.
+- Usar el nombre de la accion que se realiza en la rama
+
+  - bug/avoid-creating-lead-twice
