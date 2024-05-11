@@ -360,3 +360,11 @@ Es un modelo de ramificación que define un flujo de trabajo para proyectos de G
    del equipo y las pruebas automáticas pasan. El equipo entiende que la rama
    principal puede contener código sin terminar detrás de Feature Flags u otros
    mecanismos similares
+
+## 🏆 Buenas Prácticas
+
+### ¿Para qué sirven las buenas prácticas?
+
+- Es un estandar manejado en la mayoría de equipos de desarrollo.
+- Resolver conflictos o problemas drante el desarrollo es más sencillo.
+- Tu historial de commits es más limpio y fácil de leer.
