@@ -107,6 +107,12 @@ Para eliminar una rama, se puede utilizar el siguiente comando:
 git branch -D <nombre-rama>
 ```
 
+Para eliminar ramas de mi repositorio remoto, se puede utilizar el siguiente comando:
+
+```bash
+git remote prune origin
+```
+
 Para ver las ramas, se puede utilizar el siguiente comando:
 
 ```bash
@@ -159,3 +165,88 @@ Los conflictos se producen cuando se intenta fusionar dos ramas que han modifica
 
 - 👆 Contenido que ya existia en el archivo
 - 👇 Contenido que se añade en la rama actual
+
+## 🗺️ Navegando por GitHub
+
+- Mi perfil y repositorios:
+  Avatar > Your profile
+- Repositorio y ramas:
+  Repositorio > Branches
+- Buscar perfiles, repositorios y otros:
+  Search bar
+- Repositorio & Pull Requests:
+  Repositorio > Pull requests
+- Proyectos:
+  Repositorio > Projects
+- Organizations:
+  Avatar > Your organizations
+- Repositorio & actions:
+  Repositorio > Actions
+- Repositorio & Projects:
+  Repositorio > Projects
+
+## 📚 Enlazar repositorio local con remoto
+
+Para enlazar un repositorio local con un repositorio remoto, se puede utilizar el siguiente comando:
+
+```bash
+git remote add origin <url-repositorio>
+```
+
+Para subir los cambios al repositorio remoto, se puede utilizar el siguiente comando:
+
+```bash
+git push -u origin <nombre-rama>
+```
+
+Clone un repositorio remoto mediante https:
+
+```bash
+git clone <url-repositorio>
+```
+
+Clonar un repositorio remoto mediante ssh:
+
+```bash
+git clone
+```
+
+obtener claves ssh:
+
+```bash
+ssh-keygen -t rsa -b 4096 -C
+```
+
+## 🚀 Git Push
+
+Sube los cambios del repositorio local al repositorio remoto.
+
+```bash
+git push origin <nombre-rama>
+```
+
+### git push -u & git push -f
+
+- **git push -u**: Establece la rama actual como rama por defecto.
+- **git push -f**: Fuerza la subida de los cambios al repositorio remoto.
+
+```bash
+git push -u origin <nombre-rama>
+```
+
+```bash
+git push -f origin <nombre-rama>
+```
+
+### eliminar rama remota
+
+```bash
+git push -d origin <nombre-rama>
+```
+
+### otros comandos relacionados
+
+```bash
+git push --all
+git push --tags
+```
