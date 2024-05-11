@@ -394,3 +394,22 @@ Hacer commit a menudo no significa que debas hacer commits sin sentido.
 ```xml
   feat: add new search feature
 ```
+
+### Prefijos para commits
+
+- **feat**: Nueva funcionalidad.
+- **fix**: Corrección de errores.
+- **perf**: Mejora del rendimiento.
+- **build**: Cambios que afectan el sistema de compilación.
+- **ci**: Cambios en la integración continua.
+- **docs**: Documentación.
+- **refactor**: Refactorización del código.
+- **style**: Cambios que no afectan el código.
+- **test**: Añadir o modificar pruebas.
+
+Ejemplo:
+
+```xml
+feat(backend): add filter for cars
+fix(web): remove wrong color
+```
