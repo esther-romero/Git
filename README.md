@@ -250,3 +250,35 @@ git push -d origin <nombre-rama>
 git push --all
 git push --tags
 ```
+
+## 📥 Git Pull
+
+Descarga los cambios del repositorio remoto al repositorio local.
+
+```bash
+git pull origin <nombre-rama>
+```
+
+### git pull --rebase
+
+El rebase es una técnica que permite reescribir la historia de un repositorio.
+
+```bash
+git pull --rebase origin <nombre-rama>
+```
+
+### git pull --all
+
+Descarga todas las ramas del repositorio remoto al repositorio local.
+
+```bash
+git pull --all
+```
+
+### git pull --set-upstream
+
+Establece la rama actual como rama por defecto.
+
+```bash
+git pull --set-upstream origin <nombre-rama>
+```
