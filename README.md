@@ -420,3 +420,11 @@ fix(web): remove wrong color
 - Usar el nombre de la accion que se realiza en la rama
 
   - bug/avoid-creating-lead-twice
+
+## 🔙 Deshacer Cambios
+
+### ¿En qué casos deshacemos cambios?
+
+- Dejó de funcionar el proyecto.
+- Queremos recuperar una parte del código que eliminamos.
+- Queremos recuperar archivos que eliminamos.
