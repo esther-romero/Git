@@ -56,3 +56,7 @@ Es interesante conocerlos ya que páginas como GitHub o GitLab lo usan intesamen
 - **post-receive**:
   - Enviar un correo a todos los usuarios del repositorio que se han grabado nuevos cambios en el repositorio remoto.
   - Reflejar en una UI las nuevas referencias, ramas o commits disponibles.
+
+### Crear Hook
+
+Para crear un hook, simplemente debemos crear un archivo en la carpeta `.git/hooks` con el nombre del hook que queremos crear.
