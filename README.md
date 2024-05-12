@@ -15,3 +15,12 @@ Verificar la instalación de Git con el siguiente comando:
 ```bash
 git --version
 ```
+
+## 🛠️ Configuración de Git
+
+Configurar el nombre de usuario y el correo electrónico con los siguientes comandos:
+
+```bash
+git config --global user.name "esther-romero"
+git config --global user.email "esther.romeagui@gmail.com"
+```
