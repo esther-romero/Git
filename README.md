@@ -55,3 +55,11 @@ git checkout -b <nombre-rama> || git switch -c <nombre-rama>
 ### ¿Por qué al generar una nueva rama, el id del commit no cambia?
 
 El id del commit no cambia porque el commit es un objeto inmutable. Al crear una nueva rama, se crea un nuevo puntero que apunta al mismo commit que la rama anterior.
+
+## 🔄 Merge
+
+Para fusionar una rama con la rama actual, se puede utilizar el siguiente comando:
+
+```bash
+git merge <nombre-rama>
+```
