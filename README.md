@@ -73,3 +73,13 @@ git st -> git status
 #### ¿Por qué origin es un alias?
 
 Porque origin es el nombre por defecto que se le da al repositorio remoto.
+
+#### Crear Alias
+
+```bash
+git config --global alias.co commit
+```
+
+```bash
+git config --global alias.wo "log --oneline"
+```
