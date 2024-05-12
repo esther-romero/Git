@@ -60,3 +60,12 @@ Es interesante conocerlos ya que páginas como GitHub o GitLab lo usan intesamen
 ### Crear Hook
 
 Para crear un hook, simplemente debemos crear un archivo en la carpeta `.git/hooks` con el nombre del hook que queremos crear.
+
+## 🎭 Alias
+
+Los alias permiten definir una serie de comandos que pueden ser usados en lugar de los nombres completos.
+
+```bash
+git co -> git commit
+git st -> git status
+```
