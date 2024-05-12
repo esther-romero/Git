@@ -63,3 +63,13 @@ Para fusionar una rama con la rama actual, se puede utilizar el siguiente comand
 ```bash
 git merge <nombre-rama>
 ```
+
+### Merge Fast-Forward
+
+El merge fast-forward es un tipo de merge que se realiza cuando no hay conflictos entre las ramas. Consiste en avanzar la rama actual hasta la rama que se quiere fusionar.
+
+Para realizar un merge fast-forward, se puede utilizar el siguiente comando:
+
+```bash
+git merge <nombre-rama>  --no-ff
+```
