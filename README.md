@@ -71,3 +71,19 @@ Establece la rama actual como rama por defecto.
 ```bash
 git pull --set-upstream origin <nombre-rama>
 ```
+
+## 🙏 Pull Request
+
+Un pull request es una solicitud para fusionar una rama con otra rama.
+
+### ¿Cómo se crea un pull request?
+
+1. La rama la subiste recientemente y te aparece la opción en GitHub.
+2. Vas a la pestaña Pull requests y creas uno nuevo.
+
+### Hacer una buena PR
+
+- **Título descriptivo**: Indica el propósito de la PR.
+- **Descripción detallada**: Explica los cambios realizados.
+- **Enfocar el código en una sola cosa**: Es mucho más fácil revisar y aceptar una PR que hace solo una cosa a una que hace muchas.
+- **Añadir capturas de pantalla**: Si es necesario, añadir capturas de pantalla.
