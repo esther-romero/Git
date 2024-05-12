@@ -89,3 +89,41 @@ git config --global alias.wo "log --oneline"
 ```bash
 git config --global --unset alias.co
 ```
+
+## 🎩 Trucos en Git
+
+### Guarda cambios temporalmente
+
+```bash
+git stash
+git stash -u
+git stash pop
+```
+
+### Aplicar cambios de commits en específico
+
+```bash
+git cherry-pick <commit>
+```
+
+### Detectar que commit es el que ha introducido un gub
+
+```bash
+git bisect
+git bisect start
+git bisect bad
+git bisect good <commit>
+git bisect reset
+```
+
+### Cambiar el nombre de un commit
+
+```bash
+git commit --amend -m <descripcion>
+```
+
+### Recuperar un archivo en concreto de otra rama o commit
+
+```bash
+git checkout <SHA> <archivo>
+```
