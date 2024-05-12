@@ -39,3 +39,20 @@ Solo afectan al repositorio local que los contiene.
 ### Desventajas de los Hooks del lado del cliente
 
 Los hooks no se comparten con el repositorio, por lo que si alguien clona el repositorio no tendrá los hooks.
+
+#### Hooks del lado del servidor
+
+Es interesante conocerlos ya que páginas como GitHub o GitLab lo usan intesamente a la hora de construir.
+
+- **pre-receive**:
+
+  - Para comprobar que los commits que se quieren guardar están bien formados.
+  - Verificar que el usuario que intenta grabar los commits tiene permisos necesarios para hacerlo.
+
+- **update**:
+
+  - Puedes evitar de una forma granular cada actualización.
+
+- **post-receive**:
+  - Enviar un correo a todos los usuarios del repositorio que se han grabado nuevos cambios en el repositorio remoto.
+  - Reflejar en una UI las nuevas referencias, ramas o commits disponibles.
