@@ -72,3 +72,11 @@ Restaurar archivos del working directory:
 ```bash
 git restore <archivo>
 ```
+
+## 📄 Crear un commit
+
+Para crear un commit con los archivos en el stage, se puede utilizar el siguiente comando:
+
+```bash
+git commit -m "<mensaje>"
+```
