@@ -80,3 +80,19 @@ Para crear un commit con los archivos en el stage, se puede utilizar el siguient
 ```bash
 git commit -m "<mensaje>"
 ```
+
+### Historial de commits
+
+Para ver el historial de commits, se puede utilizar el siguiente comando:
+
+```bash
+git log
+```
+
+otros comandos:
+
+```bash
+git log --oneline
+git log --graph
+git log --oneline --graph
+```
