@@ -46,3 +46,29 @@ git status
 - **Modified**: Archivos que han sido modificados.
 - **Staged**: Archivos que están en el stage.
 - **Committed**: Archivos que han sido guardados en el repositorio.
+
+## 🔍 Seguimiento de archivos
+
+Para agregar un archivo modificado al stage, se puede utilizar el siguiente comando:
+
+```bash
+git add <archivo>
+```
+
+Para agregar todos los archivos modificados al stage, se puede utilizar el siguiente comando:
+
+```bash
+git add .
+```
+
+Restaurar archivos del stage:
+
+```bash
+git restore --staged <archivo>
+```
+
+Restaurar archivos del working directory:
+
+```bash
+git restore <archivo>
+```
