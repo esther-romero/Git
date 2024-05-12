@@ -35,3 +35,29 @@ git reset --soft <id-commit> || git reset --soft HEAD~1
 ```bash
 git reset --hard <id-commit>
 ```
+
+#### 🟢 No destructivos
+
+Trabajan en base al historial sin afectarlo.
+
+#### git revert
+
+Revierte los cambios que un commit introdujo, y crea un nuevo commit con los cambios revertidos.
+
+```bash
+git revert HEAD~5
+```
+
+para abortar cambios:
+
+```bash
+git revert --abort
+```
+
+#### git checkout
+
+Nos permite recuperar código específico de commits.
+
+```bash
+git checkout <id-commit> <archivo>
+```
