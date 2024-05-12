@@ -180,3 +180,7 @@ Contenido que ya existia en el archivo
 Contenido que se añade en la rama actual
 >>>>>>> <nombre-rama> (Incomming Change)
 ```
+
+ejemplo:
+
+![alt text](./images/conflictos.png)
