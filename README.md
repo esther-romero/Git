@@ -83,3 +83,9 @@ git config --global alias.co commit
 ```bash
 git config --global alias.wo "log --oneline"
 ```
+
+#### Borrar Alias
+
+```bash
+git config --global --unset alias.co
+```
