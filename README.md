@@ -35,3 +35,7 @@ Solo afectan al repositorio local que los contiene.
 
 - **post-checkout y post-merge**:
   - Permite limpiar el directorio de trabajo, tras realizar un checkout, o el de limpiar las ramas que ya no se usan tras realizar un merge.
+
+### Desventajas de los Hooks del lado del cliente
+
+Los hooks no se comparten con el repositorio, por lo que si alguien clona el repositorio no tendrá los hooks.
