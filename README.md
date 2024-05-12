@@ -51,3 +51,7 @@ Para crear una rama y cambiar a ella, se puede utilizar el siguiente comando:
 ```bash
 git checkout -b <nombre-rama> || git switch -c <nombre-rama>
 ```
+
+### ¿Por qué al generar una nueva rama, el id del commit no cambia?
+
+El id del commit no cambia porque el commit es un objeto inmutable. Al crear una nueva rama, se crea un nuevo puntero que apunta al mismo commit que la rama anterior.
