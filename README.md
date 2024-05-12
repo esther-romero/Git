@@ -73,3 +73,19 @@ Para realizar un merge fast-forward, se puede utilizar el siguiente comando:
 ```bash
 git merge <nombre-rama>  --no-ff
 ```
+
+## ⚔️ Conflictos
+
+Los conflictos se producen cuando se intenta fusionar dos ramas que han modificado las mismas líneas de un archivo.
+
+- 👆 Contenido que ya existia en el archivo
+- 👇 Contenido que se añade en la rama actual
+- 🔄 Contenido que se añade en la rama que se quiere fusionar
+
+```bash
+<<<<<<< HEAD (Current Change)
+Contenido que ya existia en el archivo
+=======
+Contenido que se añade en la rama actual
+>>>>>>> <nombre-rama> (Incomming Change)
+```
