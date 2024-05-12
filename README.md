@@ -125,5 +125,5 @@ git commit --amend -m <descripcion>
 ### Recuperar un archivo en concreto de otra rama o commit
 
 ```bash
-git checkout <SHA> <archivo>
+git checkout <SHA> <archivo-e>
 ```
