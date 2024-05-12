@@ -20,3 +20,11 @@ Es un modelo de ramificación que define un flujo de trabajo para proyectos de G
 - **Support**: Contiene el código en mantenimiento.
 
 ![alt text](./images/image-1.png)
+
+### GitHub Flow
+
+Es un modelo de ramificación que define un flujo de trabajo para proyectos de GitHub. Se compone de una rama principal:
+
+- **Main (master)**: Contiene el código en producción.
+
+![alt text](./images/image.png)
