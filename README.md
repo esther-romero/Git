@@ -69,3 +69,7 @@ Los alias permiten definir una serie de comandos que pueden ser usados en lugar 
 git co -> git commit
 git st -> git status
 ```
+
+#### ¿Por qué origin es un alias?
+
+Porque origin es el nombre por defecto que se le da al repositorio remoto.
