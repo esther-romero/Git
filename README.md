@@ -24,3 +24,25 @@ Configurar el nombre de usuario y el correo electrónico con los siguientes coma
 git config --global user.name "esther-romero"
 git config --global user.email "esther.romeagui@gmail.com"
 ```
+
+## 📦 Crear un repositorio
+
+Para crear un repositorio, se puede utilizar el siguiente comando:
+
+```bash
+git init
+```
+
+### Estado del repositorio
+
+Para ver el estado del repositorio, se puede utilizar el siguiente comando:
+
+```bash
+git status
+```
+
+### Tipos de estados del repositorio
+
+- **Modified**: Archivos que han sido modificados.
+- **Staged**: Archivos que están en el stage.
+- **Committed**: Archivos que han sido guardados en el repositorio.
